@@ -11,7 +11,7 @@
 # $5: Time for dithering and settlement in seconds
 # $6: iso
 # Usage: ./caphoto.sh $1 $2 $3 $4 $5 $6 or interactive mode
-# Example: ./caphoto.sh 60 10 6 2 30 400 -> Capture 60s x 6 frames using iso 400 with interval 10s and resting 30s for each dither 
+# Example: ./caphoto.sh 60 10 6 2 30 400 -> Capture 60s x 6 frames with 2 dither frames using iso 400 and interval 10s. Resting 30s for each dither
 
 
 
