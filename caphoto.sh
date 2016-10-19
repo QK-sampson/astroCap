@@ -115,6 +115,7 @@ cd /home/raspex/astrophoto					# Change it to the path of your default imaging f
 				do echo "***************************************";
 				echo -e "Frame ${cnt}/${NuOf_frame} start. . ." && ((cnt = ${cnt}+1)) ;
 				sudo gphoto2 -B $exptime --capture-image-and-download --keep-raw --frames 1;
+				echo -e "Interval: ${intval} seconds" && sleep $intval;
 			done	
 		else
 			((NuOf_sub_frame = NuOf_frame/nodither))						# No. of frames between two dithers
