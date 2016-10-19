@@ -1,6 +1,6 @@
 #!/bin/bash
 
-################# Astro script (beta) for created by Sampson #####################################
+################# Astro script (beta) for Nikon DSLR created by Sampson #####################################
 # Captures a series of astrophotos using gphoto2 with dither function of Lin guider.
 # Tested on Nikon D5300 and D600
 #
