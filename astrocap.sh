@@ -174,9 +174,8 @@ for ((d=1; d<=${nodither}; d++));
 						
 						if [[ ${cnt} -eq ${NuOf_frame} ]]; then
 						LastFram=$cnt;	
-						R_cnt=$cnt;
 						echo ""
-						echo -e "> The last dithering will start . ."
+						echo -e "> The ${d}/${nodither} dithering will start . . ."
 						/home/raspex/lin_guider_pack/lin_guider/tools/lg_tool.pl dither				# Change it to the location of lg_tool.pl in the system
 						echo -e "Settle: ${settime} seconds" && sleep $settime;
 						
@@ -191,6 +190,7 @@ for ((d=1; d<=${nodither}; d++));
 done
 
 ((REST_FRAME = NuOf_frame - NuOf_sub_frame*nodither));
+((R_cnt = NuOf_frame - REST_FRAME + 1));
 
 				for ((i=REST_FRAME; i>0; i--));
 				do echo "***************************************"; 
