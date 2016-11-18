@@ -1,6 +1,6 @@
 #!/bin/bash
 
-################# Astro script (Ver 1) for created by Sampson #####################################
+################# Astro script (Ver 1) for Nikon created by Sampson #####################################
 # Captures a series of astrophotos using gphoto2 with dither function of Lin guider.
 # Tested on Nikon D5300, D7200, D600, D800E and D810A
 #
